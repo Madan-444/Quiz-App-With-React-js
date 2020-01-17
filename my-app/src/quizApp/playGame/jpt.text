@@ -1,0 +1,21 @@
+<div class="btn-group btn-group-toggle" data-toggle="buttons">
+<label class="btn btn-secondary">
+  <input type="radio" name="options" id="option1" checked/> Previous
+</label>
+<label class="btn btn-secondary">
+  <input type="radio" name="options" id="option2"/> Quit
+</label>
+<label class="btn btn-secondary">
+  <input type="radio" name="options" id="option3"/> Next
+</label>
+</div>
+*********************
+<div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action active">
+                    {item.question}
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">{item.answer_a} </a>
+                <a href="#" class="list-group-item list-group-item-action">{item.answer_b}</a>
+                <a href="#" class="list-group-item list-group-item-action">{item.answer_c}</a>
+                <a href="#" class="list-group-item list-group-item-action">{item.answer_d}</a>
+            </div>

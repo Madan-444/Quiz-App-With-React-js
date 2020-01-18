@@ -19,3 +19,26 @@
                 <a href="#" class="list-group-item list-group-item-action">{item.answer_c}</a>
                 <a href="#" class="list-group-item list-group-item-action">{item.answer_d}</a>
             </div>
+
+
+    const func1=()=> {
+        setAns1(ans1==='a')
+        console.log(ans1)
+        console.log(item.question)
+        
+    }
+    const func2=()=> {
+        setAns2(ans2==='b')
+        console.log(ans2)
+        
+    }
+    const func3=()=> {
+        setAns3(ans3==='c')
+        console.log(ans3)
+        
+    }
+    const func4=()=> {
+        setAns4(ans4==='d')
+        console.log(ans4)
+        
+    }

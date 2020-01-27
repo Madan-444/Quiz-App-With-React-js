@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import './itemStyle.css'
 import SubmitButton from './SubmitButton'
 
 function EacthQA(props) {
@@ -64,10 +65,10 @@ function EacthQA(props) {
     }
 
     return (
-        <div>
+        <div className='eachitem'>
             {
 
-                props.data.slice(first, second).map(item => <div className='container'>
+                props.data.slice(first, second).map(item => <div className='container eachitemss'>
                     <div class="list-group main-body">
 
                         <a href="#" class="list-group-item list-group-item-action active">
@@ -146,7 +147,7 @@ function EacthQA(props) {
                         </div>
 
                     </div>
-                    <h1>Question Solved -  {qtnSolvedCounter}/10 </h1>
+                    <h2>Question Solved -  {qtnSolvedCounter}/10 </h2>
                     <SubmitButton qtnsolved = {qtnSolvedCounter} ansCorrect = {correct} />
                     <Link className='nav-link' to='/'><button type="button" class="btn btn-primary mt-1 btn-lg btn-block">Quit Game !</button></Link>
                 </div>)

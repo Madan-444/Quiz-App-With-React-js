@@ -1,0 +1,10 @@
+.eachitem{
+    background-image: url('../playGame//freebackground.png');
+    color:white;
+    height: 650px;
+}
+.eachitemss{
+    text-align: left;
+    color:rgb(32, 29, 29);
+
+} 

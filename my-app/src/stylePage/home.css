@@ -2,6 +2,9 @@ body{
     background-position: center;
 }
 .home {
-    background-image: linear-gradient(to right,rgb(202, 219, 240),rgb(104, 206, 189), rgb(240, 225, 145));
+    background-image: url('../stylePage/backimg.jpg');
     height: 650px;
+}
+.twobutton{
+    margin-top: 100px;
 }

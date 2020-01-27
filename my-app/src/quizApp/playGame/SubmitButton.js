@@ -28,12 +28,12 @@ function SubmitButton({ qtnsolved, ansCorrect }) {
                                         <Card.Text>
                                             For more Question Sets, Click bellow. We will provide awesome question and answer like this.
                                         </Card.Text>
-                                        <Button variant="primary">See AnsWers ?</Button>
+                                        <Button variant="primary" >See AnsWers ?</Button>
                                     </Card.Body>
                                 </Card>
                             </Modal.Title>
                         </Modal.Header>
-                        <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
+                        <Modal.Body>Woohoo, You are doing spectacular.</Modal.Body>
                         <Modal.Footer>
                             <Button variant="secondary" onClick={handleClose}>
                             Next Question Set?
